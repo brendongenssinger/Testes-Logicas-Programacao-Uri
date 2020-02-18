@@ -1,0 +1,11 @@
+/Users/brendongenssinger/PraticasProgramacao2020/bin/Debug/netcoreapp2.0/PraticasProgramacao2020.deps.json
+/Users/brendongenssinger/PraticasProgramacao2020/bin/Debug/netcoreapp2.0/PraticasProgramacao2020.runtimeconfig.json
+/Users/brendongenssinger/PraticasProgramacao2020/bin/Debug/netcoreapp2.0/PraticasProgramacao2020.runtimeconfig.dev.json
+/Users/brendongenssinger/PraticasProgramacao2020/bin/Debug/netcoreapp2.0/PraticasProgramacao2020.dll
+/Users/brendongenssinger/PraticasProgramacao2020/bin/Debug/netcoreapp2.0/PraticasProgramacao2020.pdb
+/Users/brendongenssinger/PraticasProgramacao2020/obj/Debug/netcoreapp2.0/PraticasProgramacao2020.csproj.CoreCompileInputs.cache
+/Users/brendongenssinger/PraticasProgramacao2020/obj/Debug/netcoreapp2.0/PraticasProgramacao2020.AssemblyInfoInputs.cache
+/Users/brendongenssinger/PraticasProgramacao2020/obj/Debug/netcoreapp2.0/PraticasProgramacao2020.AssemblyInfo.cs
+/Users/brendongenssinger/PraticasProgramacao2020/obj/Debug/netcoreapp2.0/PraticasProgramacao2020.dll
+/Users/brendongenssinger/PraticasProgramacao2020/obj/Debug/netcoreapp2.0/PraticasProgramacao2020.pdb
+/Users/brendongenssinger/PraticasProgramacao2020/obj/Debug/netcoreapp2.0/PraticasProgramacao2020.csprojResolveAssemblyReference.cache
