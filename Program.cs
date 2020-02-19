@@ -9,7 +9,9 @@ namespace PraticasProgramacao2020
             Console.WriteLine("Hello World!");
             //_1002.Execute();
             //_1006.Executar();
-            _1007.Executar();
+            //_1007.Executar();
+            //_1008.Executar();
+            ExecuteTodos.Executar_1010();
             
             Console.ReadLine();
         }
