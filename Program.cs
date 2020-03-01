@@ -11,7 +11,9 @@ namespace PraticasProgramacao2020
             //_1006.Executar();
             //_1007.Executar();
             //_1008.Executar();
-            ExecuteTodos.Executar_1010();
+            //ExecuteTodos.Executar_1010();
+            //ExecuteTodos.Executar_1011();
+            ExecuteTodos.Executar_1012();
             
             Console.ReadLine();
         }
