@@ -1,8 +1,7 @@
 using System;
-using System.Linq;
 namespace PraticasProgramacao2020
 {
-    public static class ExecuteTodos
+    public class ExecuteTodos
     {
         public static void Executar_1010()
         {
@@ -50,23 +49,31 @@ namespace PraticasProgramacao2020
             while (true)
             {
                 var entrada = Convert.ToString(Obter()).Split(" "); 
-                var triangulo = (entrada[0].asDouble() * entrada[2].asDouble())/2;
-                var areaCirculo = entrada.Sum(pX=> pX.asDouble() * 3.14159);
-                System.Console.WriteLine($@"TRIANGULO: {triangulo.ToString("0.000")}");
-                System.Console.WriteLine($@"CIRCULO: {areaCirculo.ToString("0.000")}");
+
+                var triangulo = (asDouble(entrada[0]) * asDouble(entrada[2]))/2;
+
+                var areaCirculo = Math.Pow(asDouble(entrada[2]),2) * 3.14159;
+
+                var areaTrapezio = ((asDouble(entrada[0]) + asDouble(entrada[1]))*asDouble(entrada[2]))/2;
+
+                var areaQuadrado =  Math.Pow(asDouble(entrada[1]),2);
+
+                var areaRetangulo = asDouble(entrada[0]) * asDouble(entrada[1]);
+
+                System.Console.WriteLine("TRIANGULO: "+triangulo.ToString("0.000"));
+                System.Console.WriteLine("CIRCULO: "+areaCirculo.ToString("0.000"));
+                System.Console.WriteLine("TRAPEZIO: "+areaTrapezio.ToString("0.000"));
+                System.Console.WriteLine("QUADRADO: "+areaQuadrado.ToString("0.000"));
+                System.Console.WriteLine("RETANGULO: "+ areaRetangulo.ToString("0.000"));
             }      
         }
+
         public static object Obter()
         {
             return Console.ReadLine();
         }
 
-        public static double asDouble(this object pValor)
-        {
-            return Convert.ToDouble(pValor);
-        }
-
-        public static double asDouble(this string pValor)
+        public static double asDouble(string pValor)
         {
             return Convert.ToDouble(pValor);
         }
